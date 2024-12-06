@@ -56,6 +56,9 @@ export const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
             <a href="#faq" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
               FAQ
             </a>
+            <a href="#testimonials" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
+            Testimonials
+            </a>
             <a href="#contact" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
               Contact
             </a>
