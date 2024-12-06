@@ -14,13 +14,15 @@ export const Navbar = () => {
               <a href="#home" className="text-rose-900 hover:text-rose-700 px-3 py-2">Home</a>
               <a href="#products" className="text-rose-900 hover:text-rose-700 px-3 py-2">Products</a>
               <a href="#about" className="text-rose-900 hover:text-rose-700 px-3 py-2">About</a>
+              <a href="#faq" className="text-rose-900 hover:text-rose-700 px-3 py-2">FAQ</a>
+              <a href="#reviews" className="text-rose-900 hover:text-rose-700 px-3 py-2">Reviews</a>
               <a href="#contact" className="text-rose-900 hover:text-rose-700 px-3 py-2">Contact</a>
             </div>
           </div>
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <ShoppingBag className="h-6 w-6 text-rose-900" />
             <Menu className="h-6 w-6 text-rose-900 md:hidden" />
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
