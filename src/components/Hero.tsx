@@ -20,20 +20,20 @@ export const Hero = () => {
   };
 
   return (
-    <div id="home" className="relative" style={{ aspectRatio: '16/9' }}>
+    <div id="home" className="relative" style={{ aspectRatio: '16/9'}}>
     {/* Image container with transition */}
     <div className="absolute inset-0">
       {heroImages.map((image, index) => (
         <div
           key={image.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
+          className={`absolute mt-16 inset-0 transition-opacity duration-1000 ${
             index === currentImageIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >
           <img
             src={image.url}
             alt={image.alt}
-            className="w-full h-full object-cover"
+            className="w-full h-auto object-cover"
           />
         </div>
       ))}
@@ -55,7 +55,7 @@ export const Hero = () => {
       </div>
     </div>
   </div>
-  
+
   );
 };
 
