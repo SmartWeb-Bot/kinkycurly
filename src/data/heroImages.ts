@@ -9,9 +9,5 @@ export const heroImages = [
       url: require("../assets/images/wildGrowthOilsFrontImage2.png"),
       alt: "Natural hair care products"
     },
-    {
-      id: 3,
-      url:require("../assets/images/wildGrowthOilsFrontImage3.png"),
-      alt: "Curly hair products"
-    }
+   
   ];

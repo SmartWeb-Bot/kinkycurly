@@ -62,9 +62,9 @@ export const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) =>
                   <p className="text-lg text-gray-900 font-semibold mb-2">Ingredients</p>
                   <p className="text-gray-600 mb-4">{product.ingredients}</p>
 
-                  <div className="mt-6">
+                  {/* <div className="mt-6">
                     <p className="text-2xl text-rose-600 font-bold">${product.price}</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

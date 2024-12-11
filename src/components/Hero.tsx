@@ -57,4 +57,4 @@ export const Hero = () => {
   );
 };
 
-// https://www.freepik.com/free-vector/flat-spring-youtube-channel-art_23033967.htm#fromView=search&page=1&position=29&uuid=9fe5f6da-e2d9-440d-9871-b1f4e9c6f96a
+// https://www.freepik.com/free-photo/sisters-twins-grey_8224797.htm#fromView=search&page=1&position=25&uuid=9f01b545-12c4-47fa-85f5-ec96b7c2202a

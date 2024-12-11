@@ -1,52 +1,56 @@
 export const products = [
   {
     id: 1,
-    name: "Curling Custard",
-    description: "Define and moisturize your curls with our signature custard formula.",
+    name: "Kinky Curly Curling Custard 226g",//done
+    tagline: "Define, smooth, and shine with Kinky Curly Curling Custard – the ultimate natural styling gel for flawless curls!",//done
+    description: "Kinky-Curly Curling Custard defines and elongates curls, reduces frizz, and provides long-lasting hold, shine, and moisture without being greasy or crunchy, all with natural, nourishing ingredients.",//done
     price: 29.99,
     image: "https://images.unsplash.com/photo-1597354984706-fac992d9306f?ixlib=rb-4.0.3",
     benefits: [
-      "Defines and enhances natural curl pattern",
-      "Provides long-lasting moisture",
-      "Reduces frizz and flyaways",
-      "Creates soft, touchable hold"
-    ],
+      "Long-Lasting Hold",
+      "Non-Greasy",
+      "Moisturizes Hair",
+      "Defines Curls"
+    ], //done
     usage: "Apply to wet or damp hair in sections. Scrunch upward to enhance curl pattern. Air dry or diffuse for best results.",
-    ingredients: "Water, Aloe Vera Juice, Agave Nectar Extract, Pectin, Chamomile Extract, Nettle Extract, Marshmallow Root, Behentrimonium Methosulfate, Cetearyl Alcohol, Glycerin, Panthenol, Essential Oil Blend"
+    ingredients: "Botanical Infusion Of Water, Horsetail, Chamomile, Nettle And Marshmallow, Organic Aloe Vera Juice, Agave Nectar Extract, Tocopheryl Acetate (Vitamin E), Pectic, Citric Acid, Potassium Sorbate And Natural Fragrance." //done
   },
   {
     id: 2,
-    name: "Knot Today Leave-in",
-    description: "Detangle and condition your hair with this lightweight leave-in conditioner.",
+    name: "Kinky Curly Curling Custard 472ml", //done
+    tagline: "Define, smooth, and shine with Kinky Curly Curling Custard – the ultimate natural styling gel for flawless curls!", //done
+    description: "Kinky-Curly Curling Custard defines and elongates curls, reduces frizz, and provides long-lasting hold, shine, and moisture without being greasy or crunchy, all with natural, nourishing ingredients.", //done
     price: 24.99,
     image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?ixlib=rb-4.0.3",
     benefits: [
-      "Easily detangles knots and reduces breakage",
-      "Provides lightweight moisture",
-      "Improves manageability",
-      "Protects against heat damage"
-    ],
-    usage: "Apply to wet hair after shampooing. Use fingers or wide-tooth comb to detangle. Do not rinse out.",
-    ingredients: "Water, Slippery Elm Extract, Marshmallow Root, Cetyl Alcohol, Behentrimonium Chloride, Glycerin, Panthenol, Vitamin E, Essential Oil Blend"
+      "Long-Lasting Hold",
+      "Non-Greasy",
+      "Moisturizes Hair",
+      "Defines Curls"
+    ], //done
+    usage: "Apply to wet hair after shampooing. Use fingers or wide-tooth comb to detangle. Do not rinse out.", //done
+    ingredients: "Botanical Infusion Of Water, Horsetail, Chamomile, Nettle And Marshmallow, Organic Aloe Vera Juice, Agave Nectar Extract, Tocopheryl Acetate (Vitamin E), Pectic, Citric Acid, Potassium Sorbate And Natural Fragrance." //done
   },
   {
     id: 3,
-    name: "Come Clean Shampoo",
-    description: "Gently cleanse your scalp and hair without stripping natural oils.",
+    name: "Kinky Curly Knot Today 8oz", //done
+    tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.", //done
+    description: "KNOT TODAY is a creamy herbal conditioner and detangler designed to smooth the cuticle and remove knots, snarls and tangles from thick curly textured hair.", //done
     price: 19.99,
     image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?ixlib=rb-4.0.3",
     benefits: [
-      "Gently cleanses without stripping",
-      "Maintains natural moisture balance",
-      "Promotes healthy scalp",
-      "Sulfate-free formula"
-    ],
-    usage: "Wet hair thoroughly. Apply shampoo to scalp and massage gently. Rinse completely. Repeat if necessary.",
-    ingredients: "Water, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Aloe Vera Juice, Chamomile Extract, Sage Extract, Panthenol, Essential Oil Blend"
+      "Detangles Hair",
+      "Moisturizes and Softens",
+      "Frizz Control",
+      "Defines Curls"
+    ], //done
+    usage: "After washing hair, apply KNOT TODAY generously and work through troubled areas with a wide tooth comb.", //done
+    ingredients: "Organic mango friut extract, Organic slippery elm, Organic marshmallow root, Organic lemongrass, cetyl alcohol, behentrimonium methosulfate, citric acid, phenoxyethanol and natural fragrance." //done
   },
   {
     id: 4,
     name: "Spiral Spritz",
+    tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.",
     description: "Refresh and revive your curls with our moisturizing spray.",
     price: 22.99,
     image: "https://images.unsplash.com/photo-1608247679274-959c2dac5898?ixlib=rb-4.0.3",
@@ -61,22 +65,25 @@ export const products = [
   },
   {
     id: 5,
-    name: "Perfectly Polished Oil",
-    description: "Add shine and reduce frizz with our lightweight finishing oil.",
+    name: "KINKY CURLY STRAIGHT ORIGINAL",
+    tagline: "Nourish, repair, and shine with KINKY CURLY STRAIGHT Original Banana & Honey Hair Mask – nature’s treat for your hair!",
+    description: "The KINKY CURLY STRAIGHT Natural Banana & Honey Hair Mask deeply nourishes and strengthens hair, enhancing moisture, elasticity, and shine while promoting healthy growth and scalp health—perfect for all textures, especially curly, coily, and wavy.",
     price: 27.99,
     image: "https://images.unsplash.com/photo-1608247887193-66ab2f051784?ixlib=rb-4.0.3",
     benefits: [
-      "Adds brilliant shine",
-      "Controls frizz and flyaways",
-      "Seals in moisture",
-      "Protects against environmental damage"
+      "Promotes Growth",
+      "Strengthens & Protects",
+      "Restores Hair Health",
+      "Reduces Breakage",
+      "Deeply Moisturizing"
     ],
     usage: "Apply 2-3 drops to palms and distribute evenly through damp or dry hair, focusing on ends. Style as desired.",
-    ingredients: "Argan Oil, Jojoba Oil, Grapeseed Oil, Vitamin E, Essential Oil Blend"
+    ingredients: "Water (Aqua), Banana Extract, Honey, Shea Butter, Coconut Oil, Argan Oil, Aloe Vera Extract, Rosemary Oil, Peppermint Oil, Vitamin E, Pro-Vitamin B5 (Panthenol), Cetearyl Alcohol, Behentrimonium Methosulfate, Glycerin, Hydrolyzed Keratin, Citric Acid, Potassium Sorbate, Sodium Benzoate, Fragrance (Parfum)."
   },
   {
     id: 6,
     name: "Deep Treatment Mask",
+    tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.",
     description: "Intensely moisturize and repair damaged hair with our weekly treatment.",
     price: 34.99,
     image: "https://images.unsplash.com/photo-1608248544139-90d8aa0a4335?ixlib=rb-4.0.3",

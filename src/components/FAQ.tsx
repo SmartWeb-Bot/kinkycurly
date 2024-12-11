@@ -10,10 +10,7 @@ export const FAQ = () => {
       question: "Are your products suitable for all curl types?",
       answer: "Yes! Our products are designed to work with all curl patterns from wavy to coily (2A-4C). The key is adjusting the amount of product based on your hair's porosity and density."
     },
-    {
-      question: "Do your products contain sulfates or parabens?",
-      answer: "No, all Kinky Curly products are free from sulfates, parabens, silicones, and artificial colors. We believe in using natural ingredients that nourish your hair."
-    },
+
     {
       question: "How often should I use these products?",
       answer: "This varies by product and your hair's needs. Our cleansers can be used weekly, while leave-in products can be applied as needed for moisture maintenance."
@@ -22,10 +19,10 @@ export const FAQ = () => {
       question: "Can I use multiple Kinky Curly products together?",
       answer: "Absolutely! Our products are designed to work synergistically. We recommend following our suggested layering routine for best results."
     },
-    {
-      question: "What's your return policy?",
-      answer: "While we don't process direct sales through our website, our authorized retailers typically offer a 30-day return policy for unopened products."
-    }
+    // {
+    //   question: "Is this product safe for color-treated hair?",
+    //   answer: "Yes, it is formulated to be gentle and safe for color-treated or chemically processed hair."
+    // }
   ];
 
   return (
