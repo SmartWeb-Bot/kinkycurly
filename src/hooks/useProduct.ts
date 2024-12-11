@@ -24,10 +24,7 @@ export const useProduct = (id: string | undefined) => {
           const productWithImages = {
             ...foundProduct,
             images: [
-              ...foundProduct.image, // flatten the array
-              'https://images.unsplash.com/photo-1597354984706-fac992d9306f?ixlib=rb-4.0.3',
-              'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?ixlib=rb-4.0.3',
-              'https://images.unsplash.com/photo-1608248544139-90d8aa0a4335?ixlib=rb-4.0.3',
+              ...foundProduct.images, // flatten the array
             ],
           };
           setProduct(productWithImages);

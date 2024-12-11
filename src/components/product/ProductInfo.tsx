@@ -7,6 +7,8 @@ interface ProductInfoProps {
 }
 
 export const ProductInfo = ({ product }: ProductInfoProps) => {
+
+  
   return (
     <div className="space-y-6">
       <div>
@@ -26,12 +28,15 @@ export const ProductInfo = ({ product }: ProductInfoProps) => {
       <ProductBenefits benefits={product.benefits} />
 
       <div className="space-y-4">
-        <button className="w-full bg-rose-600 text-white px-6 py-3 rounded-full hover:bg-rose-700 transition-colors">
-          Add to Cart
-        </button>
-        <button className="w-full border-2 border-rose-600 text-rose-600 px-6 py-3 rounded-full hover:bg-rose-50 transition-colors">
-          Add to Wishlist
-        </button>
+        <a href={product.amazonProductUrl}>
+          <button className="w-full bg-rose-600 text-white px-6 py-3 rounded-full hover:bg-rose-700 transition-colors" >
+            Order on Amazon
+          </button>
+        </a>
+        {/* <button className="w-full border-2 border-rose-600 text-rose-600 px-6 py-3 rounded-full hover:bg-rose-50 transition-colors">
+            Save to Amazon Cart
+          </button> */}
+
       </div>
     </div>
   );

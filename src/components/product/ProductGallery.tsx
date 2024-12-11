@@ -10,7 +10,7 @@ export const ProductGallery = ({ images }: ProductGalleryProps) => {
 
   return (
     <div className="space-y-4">
-      <div className="relative aspect-square overflow-hidden rounded-lg bg-gray-100">
+      <div className="relative aspect-square overflow-hidden rounded-lg">  
         <img
           src={images[mainImage]}
           alt="Product"
@@ -18,7 +18,7 @@ export const ProductGallery = ({ images }: ProductGalleryProps) => {
         />
         {images.length > 1 && (
           <>
-            <button
+            {/* <button
               onClick={() => setMainImage((prev) => (prev === 0 ? images.length - 1 : prev - 1))}
               className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 hover:bg-white"
             >
@@ -29,16 +29,17 @@ export const ProductGallery = ({ images }: ProductGalleryProps) => {
               className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 hover:bg-white"
             >
               <ChevronRight className="h-6 w-6" />
-            </button>
+            </button> */}
           </>
         )}
       </div>
       {images.length > 1 && (
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-7 gap-4">
           {images.map((image, index) => (
             <button
               key={index}
               onClick={() => setMainImage(index)}
+              onMouseEnter={() => setMainImage(index)} // Switch image on hover
               className={`aspect-square rounded-lg overflow-hidden ${
                 index === mainImage ? 'ring-2 ring-rose-500' : ''
               }`}
