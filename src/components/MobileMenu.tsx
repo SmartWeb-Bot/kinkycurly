@@ -4,9 +4,10 @@ import { X } from 'lucide-react';
 interface MobileMenuProps {
   isOpen: boolean;
   onClose: () => void;
+  onNavClick: (sectionId: string) => (e: React.MouseEvent) => void;
 }
 
-export const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
+export const MobileMenu = ({ isOpen, onClose, onNavClick }: MobileMenuProps) => {
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -44,22 +45,22 @@ export const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
             </button>
           </div>
           <div className="flex flex-col space-y-4">
-            <a href="#home" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
+            <a href="#home" onClick={onNavClick('home')} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
               Home
             </a>
-            <a href="#products" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
+            <a href="#products" onClick={onNavClick('products')} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
               Products
             </a>
-            <a href="#about" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
+            <a href="#about" onClick={onNavClick('about')} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
               About
             </a>
-            <a href="#faq" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
+            <a href="#faq" onClick={onNavClick('faq')} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
               FAQ
             </a>
-            <a href="#testimonials" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
-            Testimonials
+            <a href="#testimonials" onClick={onNavClick('testimonials')} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
+              Testimonials
             </a>
-            <a href="#contact" onClick={onClose} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
+            <a href="#contact" onClick={onNavClick('contact')} className="text-rose-900 hover:text-rose-700 py-2 transition-colors duration-200">
               Contact
             </a>
           </div>

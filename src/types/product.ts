@@ -4,7 +4,7 @@ export interface Product {
     tagline: string;
     description: string;
     price: number;
-    image: string;
+    images?: string[]
     benefits?: string[];
     usage?: string;
     ingredients?: string;

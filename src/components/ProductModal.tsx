@@ -37,7 +37,7 @@ export const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) =>
               <div className="mt-3 text-center sm:mt-0 sm:text-left w-full">
                 <div className="mb-4">
                   <img
-                    src={product.image}
+                    src={product.images?.[0]}
                     alt={product.name}
                     className="w-full h-64 object-cover rounded-lg"
                   />

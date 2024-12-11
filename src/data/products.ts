@@ -5,7 +5,7 @@ export const products = [
     tagline: "Define, smooth, and shine with Kinky Curly Curling Custard – the ultimate natural styling gel for flawless curls!",//done
     description: "Kinky-Curly Curling Custard defines and elongates curls, reduces frizz, and provides long-lasting hold, shine, and moisture without being greasy or crunchy, all with natural, nourishing ingredients.",//done
     price: 29.99,
-    image: "https://images.unsplash.com/photo-1597354984706-fac992d9306f?ixlib=rb-4.0.3",
+    image: ["https://images.unsplash.com/photo-1597354984706-fac992d9306f?ixlib=rb-4.0.3"],
     benefits: [
       "Long-Lasting Hold",
       "Non-Greasy",
@@ -21,7 +21,7 @@ export const products = [
     tagline: "Define, smooth, and shine with Kinky Curly Curling Custard – the ultimate natural styling gel for flawless curls!", //done
     description: "Kinky-Curly Curling Custard defines and elongates curls, reduces frizz, and provides long-lasting hold, shine, and moisture without being greasy or crunchy, all with natural, nourishing ingredients.", //done
     price: 24.99,
-    image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?ixlib=rb-4.0.3",
+    image: ["https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?ixlib=rb-4.0.3"],
     benefits: [
       "Long-Lasting Hold",
       "Non-Greasy",
@@ -37,7 +37,7 @@ export const products = [
     tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.", //done
     description: "KNOT TODAY is a creamy herbal conditioner and detangler designed to smooth the cuticle and remove knots, snarls and tangles from thick curly textured hair.", //done
     price: 19.99,
-    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?ixlib=rb-4.0.3",
+    image: ["https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?ixlib=rb-4.0.3"],
     benefits: [
       "Detangles Hair",
       "Moisturizes and Softens",
@@ -53,7 +53,7 @@ export const products = [
     tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.",
     description: "Refresh and revive your curls with our moisturizing spray.",
     price: 22.99,
-    image: "https://images.unsplash.com/photo-1608247679274-959c2dac5898?ixlib=rb-4.0.3",
+    image: ["https://images.unsplash.com/photo-1608247679274-959c2dac5898?ixlib=rb-4.0.3"],
     benefits: [
       "Instantly refreshes curls",
       "Adds moisture without weighing hair down",
@@ -69,7 +69,7 @@ export const products = [
     tagline: "Nourish, repair, and shine with KINKY CURLY STRAIGHT Original Banana & Honey Hair Mask – nature’s treat for your hair!",
     description: "The KINKY CURLY STRAIGHT Natural Banana & Honey Hair Mask deeply nourishes and strengthens hair, enhancing moisture, elasticity, and shine while promoting healthy growth and scalp health—perfect for all textures, especially curly, coily, and wavy.",
     price: 27.99,
-    image: "https://images.unsplash.com/photo-1608247887193-66ab2f051784?ixlib=rb-4.0.3",
+    image: ["https://images.unsplash.com/photo-1608247887193-66ab2f051784?ixlib=rb-4.0.3"],
     benefits: [
       "Promotes Growth",
       "Strengthens & Protects",
@@ -86,7 +86,7 @@ export const products = [
     tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.",
     description: "Intensely moisturize and repair damaged hair with our weekly treatment.",
     price: 34.99,
-    image: "https://images.unsplash.com/photo-1608248544139-90d8aa0a4335?ixlib=rb-4.0.3",
+    image: ["https://images.unsplash.com/photo-1608248544139-90d8aa0a4335?ixlib=rb-4.0.3"],
     benefits: [
       "Deep conditioning treatment",
       "Repairs damaged hair",
