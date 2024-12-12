@@ -12,9 +12,9 @@ export const products = [
       "Moisturizes Hair",
       "Defines Curls"
     ], //done
-    usage: "Apply to wet or damp hair in sections. Scrunch upward to enhance curl pattern. Air dry or diffuse for best results.",
+    usage: "To use Kinky Curly Curling Custard, apply it to wet hair after washing and conditioning. Section your hair and work the product through each section, ensuring even distribution. Use your fingers or a wide-tooth comb to define curls. Allow your hair to air dry or use a diffuser for quicker drying. Avoid touching your hair while it dries to prevent frizz. Once fully dry, you can gently separate curls with an oil or serum for extra shine.", //done
     ingredients: "Botanical Infusion Of Water, Horsetail, Chamomile, Nettle And Marshmallow, Organic Aloe Vera Juice, Agave Nectar Extract, Tocopheryl Acetate (Vitamin E), Pectic, Citric Acid, Potassium Sorbate And Natural Fragrance.", //done
-    amazonProductUrl:"https://www.amazon.co.uk/dp/B00449Q6I8"
+    amazonProductUrl:"https://www.amazon.co.uk/dp/B00449Q6I8" //done
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const products = [
       "Moisturizes Hair",
       "Defines Curls"
     ], //done
-    usage: "Apply to wet hair after shampooing. Use fingers or wide-tooth comb to detangle. Do not rinse out.", //done
+    usage: "To use Kinky Curly Curling Custard, apply it to wet hair after washing and conditioning. Section your hair and work the product through each section, ensuring even distribution. Use your fingers or a wide-tooth comb to define curls. Allow your hair to air dry or use a diffuser for quicker drying. Avoid touching your hair while it dries to prevent frizz. Once fully dry, you can gently separate curls with an oil or serum for extra shine.", //done
     ingredients: "Botanical Infusion Of Water, Horsetail, Chamomile, Nettle And Marshmallow, Organic Aloe Vera Juice, Agave Nectar Extract, Tocopheryl Acetate (Vitamin E), Pectic, Citric Acid, Potassium Sorbate And Natural Fragrance.",
     amazonProductUrl:"https://www.amazon.co.uk/dp/B00449Q6I8" //done
   },
@@ -48,13 +48,13 @@ export const products = [
     ], //done
     usage: "After washing hair, apply KNOT TODAY generously and work through troubled areas with a wide tooth comb.", //done
     ingredients: "Organic mango friut extract, Organic slippery elm, Organic marshmallow root, Organic lemongrass, cetyl alcohol, behentrimonium methosulfate, citric acid, phenoxyethanol and natural fragrance.", //done
-    amazonProductUrl:"https://www.amazon.co.uk/dp/B00128WK4I"
+    amazonProductUrl:"https://www.amazon.co.uk/dp/B00128WK4I" //done
   },
   {
     id: 4,
-    name: "Spiral Spritz",
-    tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.",
-    description: "Refresh and revive your curls with our moisturizing spray.",
+    name: "KINKY CURLY STRAIGHT ORIGINAL", //done
+    tagline: "Revive Your Curls with Kinky Curly Straight Leave-In Treatment – Ultimate Moisture, Softness, and Breakage Protection for Dry, Thirsty Hair!", //done
+    description: "KINKY CURLY STRAIGHT Natural Leave-In Detangling Hair Treatment deeply moisturizes and softens extremely dry, thirsty hair. This powerful formula helps prevent breakage, leaving your hair smooth, manageable, and nourished.", //done
     price: 22.99,
     images: [require("../assets/images/products/4/1.jpg"),
       require("../assets/images/products/4/2.jpg"),
@@ -63,22 +63,23 @@ export const products = [
       require("../assets/images/products/4/5.jpg"),
       require("../assets/images/products/4/6.jpg"),
       
-],
+  ], //done
     benefits: [
-      "Instantly refreshes curls",
-      "Adds moisture without weighing hair down",
-      "Reduces frizz",
-      "Perfect for second-day hair"
-    ],
-    usage: "Spray onto dry or damp hair. Scrunch gently to reactivate curl pattern. Use throughout the day as needed.",
-    ingredients: "Water, Aloe Vera Juice, Glycerin, Panthenol, Rose Water, Lavender Extract, Essential Oil Blend",
-    amazonProductUrl:"https://www.amazon.co.uk/dp/B0DKXYS6F2"
+      "Deep Moisture",
+      "Detangles Easily",
+      "Prevents Breakage",
+      "Softens Hair",
+      "No-Rinse Formula"
+    ], //done
+    usage: "Apply a generous amount of KINKY CURLY STRAIGHT Natural Leave-In Detangling Hair Treatment to damp, towel-dried hair. Gently comb through to detangle, focusing on dry ends. Do not rinse. Style as desired for soft, hydrated hair that’s protected from breakage.", //done
+    ingredients: "Water (Aqua), Cetearyl Alcohol, Behentrimonium Methosulfate, Glycerin, Aloe Vera Extract, Shea Butter, Coconut Oil, Argan Oil, Hydrolyzed Keratin, Panthenol (Pro-Vitamin B5), Silk Amino Acids, Jojoba Oil, Rosemary Extract, Peppermint Oil, Vitamin E, Citric Acid, Potassium Sorbate, Sodium Benzoate, Fragrance (Parfum).", //done
+    amazonProductUrl:"https://www.amazon.co.uk/dp/B0DKXYS6F2" //done
   },
   {
     id: 5,
-    name: "KINKY CURLY STRAIGHT ORIGINAL",
-    tagline: "Nourish, repair, and shine with KINKY CURLY STRAIGHT Original Banana & Honey Hair Mask – nature’s treat for your hair!",
-    description: "The KINKY CURLY STRAIGHT Natural Banana & Honey Hair Mask deeply nourishes and strengthens hair, enhancing moisture, elasticity, and shine while promoting healthy growth and scalp health—perfect for all textures, especially curly, coily, and wavy.",
+    name: "KINKY CURLY STRAIGHT ORIGINAL", //done
+    tagline: "Nourish, repair, and shine with KINKY CURLY STRAIGHT Original Banana & Honey Hair Mask – nature’s treat for your hair!", //done
+    description: "The KINKY CURLY STRAIGHT Natural Banana & Honey Hair Mask deeply nourishes and strengthens hair, enhancing moisture, elasticity, and shine while promoting healthy growth and scalp health—perfect for all textures, especially curly, coily, and wavy.", //done
     price: 27.99,
     images: [require("../assets/images/products/5/1.jpg"),
       require("../assets/images/products/5/2.jpg"),
@@ -87,23 +88,23 @@ export const products = [
       require("../assets/images/products/5/5.jpg"),
       require("../assets/images/products/5/6.jpg"),
       require("../assets/images/products/5/7.jpg")
-],
+], //done
     benefits: [
       "Promotes Growth",
       "Strengthens & Protects",
       "Restores Hair Health",
       "Reduces Breakage",
       "Deeply Moisturizing"
-    ],
-    usage: "Apply 2-3 drops to palms and distribute evenly through damp or dry hair, focusing on ends. Style as desired.",
-    ingredients: "Water (Aqua), Banana Extract, Honey, Shea Butter, Coconut Oil, Argan Oil, Aloe Vera Extract, Rosemary Oil, Peppermint Oil, Vitamin E, Pro-Vitamin B5 (Panthenol), Cetearyl Alcohol, Behentrimonium Methosulfate, Glycerin, Hydrolyzed Keratin, Citric Acid, Potassium Sorbate, Sodium Benzoate, Fragrance (Parfum).",
-    amazonProductUrl:"https://www.amazon.co.uk/dp/B0DKXYDJSP"
+    ], //done
+    usage: "Apply 2-3 drops to palms and distribute evenly through damp or dry hair, focusing on ends. Style as desired.", //done
+    ingredients: "Water (Aqua), Banana Extract, Honey, Shea Butter, Coconut Oil, Argan Oil, Aloe Vera Extract, Rosemary Oil, Peppermint Oil, Vitamin E, Pro-Vitamin B5 (Panthenol), Cetearyl Alcohol, Behentrimonium Methosulfate, Glycerin, Hydrolyzed Keratin, Citric Acid, Potassium Sorbate, Sodium Benzoate, Fragrance (Parfum).", //done
+    amazonProductUrl:"https://www.amazon.co.uk/dp/B0DKXYDJSP" //done
   },
   {
     id: 6,
-    name: "Deep Treatment Mask",
-    tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.",
-    description: "Intensely moisturize and repair damaged hair with our weekly treatment.",
+    name: "KINKY CURLY STRAIGHT ORIGINAL", //done
+    tagline: "Moisture, Definition, and Nourishment in Every Curl – Naturally Powered by Shea Butter, Rosemary & Mint", //done
+    description: "The Kinky Curly Straight Original Double Butter Leave-In Smoothie deeply moisturizes and defines curls, infusing hair with the nourishing power of Shea Butter, Rosemary, and Mint for soft, frizz-free, and healthy-looking hair. Perfect for all hair types, it hydrates and smooths while enhancing natural texture.", //done
     price: 34.99,
     images: [require("../assets/images/products/6/1.jpg"),
       require("../assets/images/products/6/2.jpg"),
@@ -112,22 +113,23 @@ export const products = [
       require("../assets/images/products/6/5.jpg"),
       require("../assets/images/products/6/6.jpg"),
       
-],
+], //done
     benefits: [
-      "Deep conditioning treatment",
-      "Repairs damaged hair",
-      "Strengthens hair structure",
-      "Improves elasticity"
-    ],
-    usage: "Apply generously to clean, damp hair. Leave on for 15-30 minutes. Rinse thoroughly. Use weekly or as needed.",
-    ingredients: "Water, Shea Butter, Coconut Oil, Avocado Oil, Silk Protein, Biotin, Panthenol, Essential Oil Blend",
+      "Deep Moisture & Hydration",
+      "Smoothens & Tames Frizz",
+      "Scalp Health",
+      "Defines Curls",
+      "Versatile Use"
+    ],//done
+    usage: "To use the Kinky Curly Straight Original Double Butter Leave-In Smoothie, start with clean, damp hair. Take a generous amount of the product and apply it evenly from root to tip, ensuring all sections are coated. Gently massage it into the hair to promote absorption, then detangle using a wide-tooth comb or your fingers. For best results, allow the hair to air dry or use a diffuser for added volume and definition. This leave-in smoothie can be used daily to maintain moisture, smoothness, and curl definition.", //done
+    ingredients: "Shea butter, Rosemary Mint", //done
     amazonProductUrl:"https://www.amazon.co.uk/dp/B0DKTV1973"
   },
   {
     id: 7,
-    name: "Deep Treatment Mask",
-    tagline: "A lightweight leave-in conditioner that detangles, hydrates, and smooths hair for effortless styling.",
-    description: "Intensely moisturize and repair damaged hair with our weekly treatment.",
+    name: "KINKY CURLY STRAIGHT ORIGINAL", //done
+    tagline: "Revitalize Your Hair with Kinky Curly Straight Original – Rosemary Mint & Argan Oil for Strength, Shine, and Healthy Growth!", //done
+    description: "KINKY CURLY STRAIGHT Original Rosemary Mint with Argan Oil is a nourishing scalp and hair strengthening oil that promotes healthy growth, enhances shine, and provides deep moisture. Ideal for all hair types, it revitalizes and restores your hair’s natural strength and luster.", //done
     price: 34.99,
     images: [require("../assets/images/products/7/1.jpg"),
       require("../assets/images/products/7/2.jpg"),
@@ -136,15 +138,16 @@ export const products = [
       require("../assets/images/products/7/5.jpg"),
       require("../assets/images/products/7/6.jpg"),
       
-],
+], //done
     benefits: [
-      "Deep conditioning treatment",
-      "Repairs damaged hair",
-      "Strengthens hair structure",
-      "Improves elasticity"
-    ],
-    usage: "Apply generously to clean, damp hair. Leave on for 15-30 minutes. Rinse thoroughly. Use weekly or as needed.",
-    ingredients: "Water, Shea Butter, Coconut Oil, Avocado Oil, Silk Protein, Biotin, Panthenol, Essential Oil Blend",
-    amazonProductUrl:"https://www.amazon.co.uk/dp/B0DKY3GNN4"
+      "Promotes Hair Growth",
+      "Deep Moisture",
+      "Enhances Shine",
+      "Strengthens Hair",
+      "Soothes Scalp"
+    ], //done
+    usage: "To use KINKY CURLY STRAIGHT Original Rosemary Mint with Argan Oil, apply a few drops directly to your scalp and gently massage in circular motions to stimulate blood flow. For added hydration and shine, work the oil through the length of your hair, focusing on dry or damaged areas. Leave the oil in for a few hours or overnight for maximum benefits. For best results, use regularly, either as a pre-shampoo treatment or as a leave-in oil to maintain healthy, nourished hair and scalp.", //donr
+    ingredients: "Argania Spinosa (Argan) Kernel Oil, Rosmarinus Officinalis (Rosemary) Leaf Oil, Mentha Piperita (Peppermint) Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol (Vitamin E), Simmondsia Chinensis (Jojoba) Seed Oil, Cocos Nucifera (Coconut) Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Vitis Vinifera (Grape) Seed Oil, Caprylic/Capric Triglyceride, Fragrance (Parfum).", //check in original product
+    amazonProductUrl:"https://www.amazon.co.uk/dp/B0DKY3GNN4" //done
   }
 ];

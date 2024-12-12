@@ -16,8 +16,8 @@ export const ProductInfo = ({ product }: ProductInfoProps) => {
         <p className="mt-2 text-xl text-gray-500">{product.tagline}</p>
       </div>
 
-      <div className="border-t border-b border-gray-200 py-4">
-        <p className="text-xl font-semibold text-gray-900">${product.price.toFixed(2)}</p>
+      <div className="border-t border-gray-200 ">
+        {/* <p className="text-xl font-semibold text-gray-900">${product.price.toFixed(2)}</p> */}
       </div>
 
       <div>
