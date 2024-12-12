@@ -1,20 +1,29 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { Product } from '../types/product';
-import { Link } from 'react-router-dom';
 
 interface ProductCardProps {
   product: Product;
   onLearnMore: (product: Product) => void; // Add this line
 }
 
-export const ProductCard = ({ product, onLearnMore }: ProductCardProps) => {
+export const ProductCard = ({ product , onLearnMore }: ProductCardProps) => {
+  const navigate = useNavigate();
+
+  const handleViewDetails = (e: React.MouseEvent) => {
+    e.preventDefault();
+    // Store current scroll position
+    sessionStorage.setItem('scrollPosition', window.scrollY.toString());
+    navigate(`/product/${product.id}`);
+  };
+
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-      <Link to={`/product/${product.id}`}>
+      <Link to={`/product/${product.id}`} onClick={handleViewDetails}>
         <img
           src={product.images?.[0]}
           alt={product.name}
-          className="w-full h-64 object-cover"
+          className="w-full h-64 object-contain"
         />
         <div className="p-6">
           <h3 className="text-xl font-semibold text-gray-900 mb-2">{product.name}</h3>
