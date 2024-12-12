@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useSwipeable } from '../../hooks/useSwipeable';
+import { ImageZoom } from './ImageZoom';
 
 interface ProductGalleryProps {
   images: string[];
@@ -23,11 +24,11 @@ export const ProductGallery = ({ images }: ProductGalleryProps) => {
  
   return (
     <div className="space-y-4" >
-      <div className="relative aspect-square overflow-hidden rounded-lg">
-        <img
+     <div className="relative rounded-lg flex items-center justify-center" style={{ minHeight: '500px' }}>
+     <div className="relative w-full h-full flex items-center justify-center p-4">
+        <ImageZoom
           src={images[mainImage]}
           alt="Product"
-          className="h-full w-full object-contain"
         />
         {images.length > 1 && (
           <>
@@ -47,6 +48,7 @@ export const ProductGallery = ({ images }: ProductGalleryProps) => {
             </button> */}
           </>
         )}
+      </div>
       </div>
   
       {images.length > 1 && (
